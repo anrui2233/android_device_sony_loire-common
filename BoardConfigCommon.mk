@@ -156,6 +156,7 @@ VENDOR_SECURITY_PATCH := "2019-03-01"
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /vendor/lib64/libril-qc-qmi-1.so|libaudioclient_shim.so
+    /vendor/lib64/libril-qc-qmi-1.so|libshims_ril.so \
 
 # VNDK
 BOARD_VNDK_VERSION := current

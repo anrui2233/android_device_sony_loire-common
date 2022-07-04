@@ -297,7 +297,8 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.0-service \
     libprotobuf-cpp-full \
     librmnetctl \
-    Stk
+    Stk \
+    libshims_ril
 
 # Rootdir
 PRODUCT_PACKAGES += \

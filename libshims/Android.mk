@@ -22,3 +22,13 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SHARED_LIBRARIES := libaudioclient
 
 include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := \
+    ril/ril.c
+
+LOCAL_MODULE := libshims_ril
+LOCAL_MODULE_TAGS := optional
+
+include $(BUILD_SHARED_LIBRARY)
