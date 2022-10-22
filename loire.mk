@@ -358,14 +358,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     thermanager
 
-# Touch HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.loire
-
-# Trust
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
-
 # Usb HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0 \
